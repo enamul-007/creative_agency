@@ -1,0 +1,50 @@
+
+/* ===========banner part=========== */
+
+.BannerPart{
+    padding: 238px 0;
+    background-color: var(--blue_color);
+}
+
+.btn--modifair{
+    color: var(--blue_color);
+    background-color: var(--white_color);
+}
+
+.bannerWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: cen;
+}
+
+.bannerLeft{
+    max-width: 501px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: flex-start;
+}
+
+.bannerLeft__title{
+    font-family: var(--inter);
+    font-weight: 700;
+    font-size: 65px;
+    color: var(--white_color);
+    max-width: 501px;
+}
+
+.bannerLeft__summry{
+
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white_color);
+}
+
+.btn--modifair:hover{
+    color: var(--white_color);
+    background-color: var(--secondery_font_color);
+}
+
+
+/* ===========banner part=========== */

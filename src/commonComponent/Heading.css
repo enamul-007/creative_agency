@@ -1,0 +1,21 @@
+/* ============heading css============ */
+
+.service__title{
+    font-weight: 700;
+    font-family: var(--inter);
+    font-size: 40px;
+}
+
+.service__summry{
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 400;
+    width: 542px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+/* ============heading css============ */

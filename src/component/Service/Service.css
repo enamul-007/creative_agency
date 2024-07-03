@@ -1,0 +1,64 @@
+/* ==========service part========== */
+
+:root {
+  --blue_color: #5956e8;
+  --primary_font_color: #181818;
+  --white_color: #ffffff;
+  --secondery_font_color: #5d5d5d;
+  --inter: "Inter", sans-serif;
+}
+
+.servicePart{
+    padding: 100px;
+    background-color:#E5E5E5 ;
+}
+
+.serviceStyle{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.serviceboxHolder{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.serviceBox{
+  width: 370px;
+  padding: 63px 48px;
+  background-color: #fff;
+}
+
+.service_icon{
+  font-size: 37px;
+  padding: 12px;
+  color: var(--blue_color);
+  border: 1px solid var(--blue_color);
+  border-radius: 5px;
+  transition: all linear .4s;
+}
+
+.service_icon:hover{
+ background-color: var(--blue_color);
+ color: var(--white_color);
+}
+
+.service_title{
+  font-size: 25px;
+  font-weight: 700;
+  font-family: var(--inter);
+  padding-top: 30px;
+}
+
+.service_summry{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--inter);
+  padding-top: 20px;
+}
+/* ==========service part========== */

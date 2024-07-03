@@ -1,0 +1,49 @@
+
+/* =================header css====================== */
+.header_part{
+    padding: 20px 0;
+}
+
+.navWrappr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.menuItem{
+    display: flex;
+    column-gap: 50px;
+}
+
+.menu__list{
+    font-family: var(--inter);
+    color: var(--primary_font_color);
+    font-weight: 500;
+    font-size: 18px;
+    transition: all linear .2s;
+}
+
+.menu__list:hover{
+    color: var(--blue_color);
+}
+
+.btn{
+    padding: 13px 24px;
+    color: var(--blue_color);
+    background-color: var(--white_color );
+    border: 1px solid var(--secondery_font_color);
+    border-radius: 10px;
+    transition: all linear .4s;
+}
+
+.btn:hover{
+    color: var(--white_color);
+    background-color: var(--blue_color);
+}
+
+
+/* =================header css====================== */
