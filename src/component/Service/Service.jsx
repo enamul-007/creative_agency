@@ -39,7 +39,7 @@ function Service() {
       description: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.`,
     },
     {
-      id: 1,
+      id: 6,
       icon: <PiBoundingBoxBold />,
       title: "Motion Design",
       description: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.`,
@@ -50,9 +50,9 @@ function Service() {
       <div className="servicePart">
         <div className="container">
           <Heading
-            title="Our Work Portfolio"
+            title="Our Services"
             description={`There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.`}
-            className="serviceStyle"
+            className="servicestyle"
           />
           <div className="serviceboxHolder">
             {allservice?.map((item) => (
