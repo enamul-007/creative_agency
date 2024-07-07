@@ -7,8 +7,58 @@
   --inter: "Inter", sans-serif;
 }
 
+.Protfolio_part {
+  padding: 100px 0;
+  background-color: #e5e5e5;
+}
+
+.profolio_styl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.protfolioCard_part{
+  position: relative;
+  overflow: hidden;
+  transition: ease-in-out.3s;
+  max-width: 270px;
+  height: 319px;
+  border-radius: 10px;
+}
+
+.protfolioCard_part:hover{
+  box-shadow: rgba(37, 22, 121, 0.15) 0px 48px 100px 0px;
+}
 
 
 
+.profolioCardOverlay {
+  position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 10px;
+    height: 113px;
+    width: 230px;
+    padding: 25px 40px;
+    transition: .4s all linear;
+    background-color: var(--blue_color);
+}
+
+
+.profolioCardOverlay_title {
+  font-family: var(--inter);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--white_color);
+}
+
+.profolioCardOverlay_summry {
+  font-family: var(--inter);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--white_color);
+  padding-top: 10px;
+}
 
 /* =============Protfolio css=========== */
