@@ -18,6 +18,14 @@
   align-items: center;
 }
 
+.allprotfolioCard_part{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  padding-top: 50px;
+}
+
 .protfolioCard_part{
   position: relative;
   overflow: hidden;
