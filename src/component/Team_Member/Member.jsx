@@ -39,25 +39,7 @@ const Member = () => {
               description={`There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.`}
             />
           </div>
-          <div className="teamMember__main_part">
-            {allMemberCard_part?.map((item) => (
-              <div key={item.id} className="TeamMember_mainOverlay">
-                <picture>
-                  <img
-                    className="img_part"
-                    src={item.TeamMember1}
-                    alt={item.TeamMember1}
-                  />
-                </picture>
-                <div className="TeamMember_overlay">
-                  <div className="overlay_containt">
-                    <h6 className="Teamoverlay_title">{item.title}</h6>
-                    <p className="Teamoverlay_summry">{item.description}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+        
         </div>
       </div>
     </>
