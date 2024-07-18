@@ -99,7 +99,7 @@ const Protfolio = () => {
                   <img src={item.profolio_1} alt={item.profolio_1} />
                 </picture>
                 {show && (
-                  <div className="profolioOverlay">
+
                     <div className="profolioCardOverlay">
                       <h1 className="profolioCardOverlay_title">
                         {item.title}
@@ -108,7 +108,6 @@ const Protfolio = () => {
                         {item.button} <GoArrowRight />
                       </a>
                     </div>
-                  </div>
                 )}
               </div>
             ))}

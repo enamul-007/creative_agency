@@ -1,0 +1,77 @@
+/* ===============member part css=============== */
+:root {
+  --blue_color: #5956e8;
+  --primary_font_color: #181818;
+  --white_color: #ffffff;
+  --secondery_font_color: #5d5d5d;
+  --inter: "Inter", sans-serif;
+}
+
+.TeamMember_main_part {
+  background-color: #e5e5e5;
+  padding: 100px 0;
+}
+
+.TeamMember_style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teamMember__main_part{
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  justify-content: center;
+}
+
+.img_part{
+  height: 100%;
+  width: auto;
+}
+.TeamMember_mainOverlay{
+  position: relative;
+  width: 308px;
+  height: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-top: ;
+}
+
+.TeamMember_mainOverlay:hover .TeamMember_overlay{
+  opacity: 1;
+}
+
+.TeamMember_overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, transparent 70%, rgba(89,86,232,1) 100%);
+  height: 370px;
+  width: 308px;
+  opacity: 0;
+  transition: ease-in-out .4s;
+}
+
+.overlay_containt{
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+  text-align: center;
+}
+
+.Teamoverlay_title{
+  font-family: var(--inter);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--white_color);
+}
+.Teamoverlay_summry{
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white_color);
+}
+
+/* ===============member part css=============== */
