@@ -1,0 +1,96 @@
+/* ================customar part css ==================== */
+:root {
+  --blue_color: #5956e8;
+  --primary_font_color: #181818;
+  --white_color: #ffffff;
+  --secondery_font_color: #5d5d5d;
+  --inter: "Inter", sans-serif;
+}
+
+.CustomerMain_part {
+  padding: 100px;
+  background-color: #e5e5e5;
+}
+
+.Heading_title {
+  font-family: var(--inter);
+  font-size: 40px;
+  font-weight: 700;
+  width: 600px;
+  color: var(--primary_font_color);
+}
+
+.Heading_summry {
+  font-family: var(--inter);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secondery_font_color);
+  width: 550px;
+  padding-top: 20px;
+}
+
+.CustomerCard {
+  padding: 50px 0 145px;
+}
+
+.CustomerCard_part {
+  height: 425px;
+  width: 370px;
+  background-color: #ffffff;
+  padding: 48px;
+  border-radius: 10px;
+  transition: all ease-in-out.4s;
+  position: relative;
+}
+
+.CustomerCard_part:hover {
+  -webkit-box-shadow: 1px -1px 39px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 39px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px -1px 39px 1px rgba(0, 0, 0, 0.75);
+}
+
+.star_icon {
+  padding: 30px 0 20px;
+  color: #fbbf25;
+}
+
+.CustomerCard_summry {
+  font-size: 16px;
+  font-family: var(--inter);
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--secondery_font_color);
+}
+
+.designer_name {
+  padding: 15px 0 47px;
+}
+
+.designer_name_title {
+  font-family: var(--inter);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary_font_color);
+}
+
+.designer_name_summry {
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--secondery_font_color);
+  line-height: 27px;
+}
+
+.CustomerCard_icon {
+  position: absolute;
+  right: 8%;
+  bottom: 8% ;
+}
+
+.CustomerCard_loop{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+/* ================customar part css ==================== */
