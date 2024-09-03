@@ -6,6 +6,7 @@ import Protfolio from "./component/Protfolio/Protfolio.jsx";
 import Member from "./component/Team_Member/Member.jsx";
 import Customer from "./component/Customer_part/Customer.jsx";
 import News from "./component/News_part/News.jsx";
+import Foooter from "./component/Footer/Foooter.jsx";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Member />
       <Customer />
       <News />
+      <Foooter/>
     </div>
   );
 };

@@ -1,0 +1,72 @@
+/* ================Footer================== */
+
+:root {
+  --blue_color: #5956e8;
+  --primary_font_color: #181818;
+  --white_color: #ffffff;
+  --secondery_font_color: #5d5d5d;
+  --inter: "Inter", sans-serif;
+}
+
+.FooterPart{
+    background-color: #5956e841;
+    padding: 100px 0 105px 0;
+}
+.FooterWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: flex-start;
+}
+
+.footerLeft_summry {
+  max-width: 250px;
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--secondery_font_color);
+  line-height: 27px;
+}
+
+.icon {
+  font-size: 30px;
+  color: var(--blue_color);
+}
+
+.iconLeft {
+  font-size: 30px;
+  color: var(--blue_color);
+  padding-left: 20px;
+}
+
+.footerRight{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 93px;
+}
+
+.footerTitle{
+    font-weight: 600;
+    font-family: var(--inter);
+    font-size: 20px;
+    color: var(--primary_font_color);
+    padding-bottom: 15px;
+}
+
+.footerList{
+    font-weight: 400;
+    font-family: var(--inter);
+    font-size: 16px;
+    color: var(--secondery_font_color);
+    line-height: 35px;
+}
+
+
+
+/* ================Footer================== */
